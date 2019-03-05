@@ -10,4 +10,5 @@ Learn basic react application by built shopping cart app that commonly used by e
 9. Call Counter component inside Counters.jsx to arrange css bootstrap classess for dynamic element display.
 10. Create Navbar.jsx as stateless function components. And call it in App.js, also defined totalCount to use filter method to check length of counters props that has a value grater than 0 to showing on the page, number of the product that has been added
 11. To understand which app that rendered first, create a lifecycle hooks methods, such as constructor in App.js before render method. This lifecycle hooks will be called first when the app running.
-12. In every render methods inside all component, use console.log to print 'componentName-rendered' to show rendered order of the component
+12. In every render methods inside all component, use console.log to print 'componentName-rendered' to show rendered order of the components. This shown that render method called after the constructor component.
+
